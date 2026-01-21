@@ -27,7 +27,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -65,7 +64,6 @@
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
@@ -74,84 +72,156 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "en": {
+                    "title": "Or if you {{prefer}}..."
+                },
+                "es": {
+                    "title": "O si {{prefieres}}..."
+                },
+                "fr": {
+                    "title": "Ou si vous {{préférez}}..."
+                },
+                "ko": {
+                    "title": "또는 {{원하시면}}..."
+                }
             },
             "items": [
                 {
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "+880 1324-358394",
+                    "link": {
+                        "href": "tel:+8801324358394",
+                        "tooltipString": "call_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "en": {
+                            "title": "Phone"
+                        },
+                        "es": {
+                            "title": "Teléfono"
+                        },
+                        "fr": {
+                            "title": "Téléphone"
+                        },
+                        "ko": {
+                            "title": "전화"
+                        }
                     }
                 },
                 {
-                    "id":2,
+                    "id": 2,
                     "faIcon": "fa-solid fa-envelope",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "tahsanmohammad1289@gmail.com",
+                    "link": {
+                        "href": "mailto:tahsanmohammad1289@gmail.com",
+                        "tooltipString": "email_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {
+                            "title": "E-mail"
+                        },
+                        "ko": {
+                            "title": "이메일"
+                        }
                     }
                 },
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "@tahsan-mohammad",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/tahsan-mohammad",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
+                        "en": {
+                            "title": "LinkedIn"
+                        },
+                        "ko": {
+                            "title": "링크드인"
+                        }
                     }
                 },
                 {
                     "id": 4,
                     "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "Tahsan Mohammad",
+                    "link": {
+                        "href": "https://www.facebook.com/md.tahmidhasan.426",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "en": {
+                            "title": "Facebook"
+                        },
+                        "ko": {
+                            "title": "페이스북"
+                        }
                     }
                 },
                 {
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "@tahsan_483",
+                    "link": {
+                        "href": "https://www.instagram.com/tahsan_483",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "en": {
+                            "title": "Instagram"
+                        },
+                        "ko": {
+                            "title": "인스타그램"
+                        }
                     }
                 },
                 {
                     "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-threads",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "@tahsan_483",
+                    "link": {
+                        "href": "https://www.threads.com/@tahsan_483",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": {
+                            "title": "Threads"
+                        },
+                        "ko": {
+                            "title": "스레드"
+                        }
                     }
                 }
             ]
